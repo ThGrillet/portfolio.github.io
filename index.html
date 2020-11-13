@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- HAUT DE PAGE -->
+    
+    <section id="header">
+
+        <h1>Thomas G.</h1>
+        <h2>Web developer, no award winner.</h2>
+        
+    </section>   
+
+    <hr color="yellow">
+
+    <!-- BARRE DE NAVIGATION -->
+    <div class="phone-button">
+        <button onclick="open()" class="btn-hidden color-yellow"><i class="fas fa-bars"></i></button>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><a href="">MY SKILLS</a></li>
+            <li><a href="./about.html">ABOUT ME</a></li>
+            <li><a href="">CONTACT ME</a></li>
+        </ul>
+    </nav>
+
+    <!--SOCIAL-->
+
+    <section id="social">
+        <div class="rounded">
+            <a href=""><i class="fab fa-github img-fluid"></i></a>
+        </div>
+        <div class="rounded">
+            <a href=""><i class="fab fa-twitter img-fluid"></i></a>
+        </div>
+        <div class="rounded">
+            <a href=""><i class="fab fa-linkedin-in img-fluid"></i></a>
+        </div>
+        <div class="rounded">
+            <a href=""><i class="far fa-envelope img-fluid"></i></a>
+        </div>
+    </section>
+
+    <!-- CHARGEMENT DES ICONES -->
+    
+    <script src="https://kit.fontawesome.com/1995bd8007.js" crossorigin="anonymous"></script> 
+    <script>
+        var open = function() {
+            document.getElementById('menu').style.visibility="visible";
+        }
+    </script>
+
+</body>
+
+</html>
